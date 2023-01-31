@@ -2,9 +2,9 @@
 
 require "test_helper"
 
-class TestDeprecatedrb < Minitest::Test
+class TestDeprecated < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Deprecatedrb::VERSION
+    refute_nil ::Deprecated::VERSION
   end
 
   def test_it_does_something_useful
